@@ -4,7 +4,7 @@ Mag logger magic module
 
 ## What it does?
 
-* *mag-stream* tries to requare top level *mag-hub* module
+* *mag-stream* tries to require top level *mag-hub* module
 * if it fails then *mag-stream* requires *mag-fallback*
 * in both cases, module returns writable stream
 

@@ -7,7 +7,7 @@ try {
   stream = require('mag-hub');
 } catch (err) {
   // if it fails then mag-stream require mag-fallback
-  // mag-hub is in dependencies of mag-stream
+  // mag-fallback is in dependencies of mag-stream
   stream = require('mag-fallback');
 }
 
