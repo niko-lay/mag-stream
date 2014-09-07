@@ -1,6 +1,6 @@
 {
   "name": "mag-stream",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mag magic module",
   "repository": {
     "type": "git",
@@ -25,9 +25,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "mag-fallback": "*"
+    "mag-fallback": "^0.1.2"
   },
   "devDependencies": {
-    "jshint": "^2.4.4"
+    "chai": "^1.9.1",
+    "jshint": "^2.4.4",
+    "mocha": "^1.21.4"
   }
 }

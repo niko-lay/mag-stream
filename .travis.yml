@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: mahnunchik@gmail.com
+  api_key:
+    secure: ms8qs2x41G+v81fEBnd2qloMN8TnsshsE2EHTBnQqqwY4HEapwWI0JKvotQWk12cyYMMOl5lw1gOM0e1r3Gc9fXd9Z7ZfYlXsE9wBzNYS1VE0fhZo4IxODNV+wipbl6cw5OiVnnPGNiZGO+BYo27dSpM6VfiajA8KTHwRmORKnI=
+  on:
+    tags: true
+    repo: mahnunchik/mag-stream

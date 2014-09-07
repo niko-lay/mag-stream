@@ -1,14 +1,19 @@
 NODE_BIN ?= node_modules/.bin
 
+MOCHA ?= $(NODE_BIN)/mocha
 JSHINT ?= $(NODE_BIN)/jshint
 
+TEST_DIR := test
 LIB := index.js
 
-.SUFFIXES:
-.PHONY: all lint
 
-all: lint
+.SUFFIXES:
+.PHONY: all test lint
+
+all: lint test
+
+test:
+	@$(MOCHA) --reporter spec
 
 lint:
-	@$(JSHINT) $(LIB) $(TEST_DIR)
-	@echo "All right!"
+	@$(JSHINT) $(TEST_DIR) $(LIB)

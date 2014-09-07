@@ -1,6 +1,6 @@
-# mag-stream
+# mag-stream [![Build Status](https://travis-ci.org/mahnunchik/mag-stream.svg)](https://travis-ci.org/mahnunchik/mag-stream)
 
-Mag logger magic module
+[Mag](https://github.com/mahnunchik/mag) logger magic module
 
 ## What it does?
 
@@ -14,4 +14,5 @@ Mag logger magic module
 
 ## License
 
-MIT
+[MIT](https://github.com/mahnunchik/mag-stream/blob/master/LICENSE)
+
