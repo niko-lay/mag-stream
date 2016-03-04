@@ -1,6 +1,6 @@
 {
   "name": "mag-stream",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Mag magic module",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "mag-fallback": "^0.9.0"
+    "mag-fallback": "git+https://github.com/niko-lay/mag-fallback.git"
   },
   "devDependencies": {
     "chai": "^1.9.1",
